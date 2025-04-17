@@ -21,27 +21,42 @@
     </nav>
   </header>
   <main>
-    <section>
-      <h2>Share Your Fishing Story</h2>
-      <form id="share-form">
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" required>
+    <section class="form-flex">
 
-        <label for="river">River Name:</label>
-        <input type="text" id="river" required>
-
-        <label for="state">State:</label>
-        <input type="text" id="state" required>
-
-        <label for="story">Story:</label>
-        <textarea id="story" rows="4" required></textarea>
-
-        <label for="image">Image URL:</label>
-        <input type="url" id="image">
-
-        <button type="submit">Submit</button>
-      </form>
-      <p id="submit-msg"></p>
+      <figure>
+        <img src="images/brownie.jpg" alt="Brown trout" class="side-image" loading="lazy">
+        <figcaption>Brown Trout</figcaption>
+      </figure>
+  
+      <div class="form-wrapper">
+        <h2>Share Your Fishing Story</h2>
+  
+        <form id="share-form">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" required>
+  
+          <label for="river">River Name:</label>
+          <input type="text" id="river" required>
+  
+          <label for="state">State:</label>
+          <input type="text" id="state" required>
+  
+          <label for="story">Story:</label>
+          <textarea id="story" rows="4" required></textarea>
+  
+          <label for="image">Image URL:</label>
+          <input type="url" id="image">
+  
+          <button type="submit">Submit</button>
+        </form>
+  
+        <p id="submit-msg"></p>
+      </div>
+      
+      <figure>
+      <img src="images/rainbow.jpg" alt="Rainbow Trout" class="side-image" loading="lazy">
+      <figcaption>Rainbow Trout</figcaption>
+    </figure>
     </section>
   </main>
   <footer>
